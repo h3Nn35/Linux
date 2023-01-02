@@ -1,10 +1,5 @@
 #!/bin/bash
 
-#          !!! IMPORTANT !!!
-# This file has to been executable
-# Use sudo chmod +x install.sh to make it executable
-# install.sh can be executed by using ./install.sh
-
 rm .bash_aliases
 rm .bashrc
 rm .vimrc
