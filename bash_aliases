@@ -53,8 +53,5 @@
         alias egrep='egrep --color=auto'
 
 
-	# Wake On LAN	
-		# alias ryzen='wakeonlan 3C:7C:3F:D2:D5:BB'
-		# alias vpn='wakeonlan 90:e6:ba:5d:23:41'
-		# alias fileserver='wakeonlan 54:04:a6:dc:b2:1d'
-		alias wol="wol.sh"
+    # Wake On LAN	
+	alias wol="wol.sh"
