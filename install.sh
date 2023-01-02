@@ -1,5 +1,4 @@
 #!/bin/bash
-echo off
 
 # Falls .bash_aliases bereits existiert wird ein Backup erstellt
 if [ -e ~/.bash_aliases ]; then
@@ -30,3 +29,4 @@ echo ".vimrc geladen"
 
 # Neue .bashrc laden
 . .bashrc
+echo "Neue .bashrc eingelesen"
