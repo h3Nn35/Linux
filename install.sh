@@ -1,4 +1,5 @@
 #!/bin/bash
+echo off
 
 # Falls .bash_aliases bereits existiert wird ein Backup erstellt
 if [ -e ~/.bash_aliases ]; then
@@ -19,8 +20,14 @@ if [ -e ~/.vimrc ]; then
 fi
 
 wget https://raw.githubusercontent.com/h3Nn35/Linux/master/bash_aliases -O .bash_aliases
+echo ".bash_aliases geladen"
+
 wget https://raw.githubusercontent.com/h3Nn35/Linux/master/bashrc -O .bashrc
+echo ".bashrc geladen"
+
 wget https://raw.githubusercontent.com/h3Nn35/Linux/master/vimrc -O .vimrc
+echo ".vimrc geladen"
 
 # Neue .bashrc laden
 . .bashrc
+echo "Neue .bashrc eingelesen"
