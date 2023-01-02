@@ -19,15 +19,14 @@ if [ -e ~/.vimrc ]; then
   echo "Backup von .vimrc erstellt"
 fi
 
-wget -O -q https://raw.githubusercontent.com/h3Nn35/Linux/master/bash_aliases .bash_aliases
+wget -q https://raw.githubusercontent.com/h3Nn35/Linux/master/bash_aliases -O .bash_aliases
 echo ".bash_aliases geladen"
 
-wget -O -q https://raw.githubusercontent.com/h3Nn35/Linux/master/bashrc .bashrc
+wget -q https://raw.githubusercontent.com/h3Nn35/Linux/master/bashrc -O .bashrc
 echo ".bashrc geladen"
 
-wget -O -q https://raw.githubusercontent.com/h3Nn35/Linux/master/vimrc .vimrc
+wget -q https://raw.githubusercontent.com/h3Nn35/Linux/master/vimrc -O .vimrc
 echo ".vimrc geladen"
 
 # Neue .bashrc laden
 . .bashrc
-echo "Neue .bashrc eingelesen"
