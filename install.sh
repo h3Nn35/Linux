@@ -1,5 +1,5 @@
 #!/bin/bash
-echo off
+#echo off
 
 # Falls .bash_aliases bereits existiert wird ein Backup erstellt
 if [ -e ~/.bash_aliases ]; then
