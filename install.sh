@@ -6,6 +6,6 @@
 # install.sh can be executed by using ./install.sh
 
 rm .bashrc
-wget https://github.com/h3Nn35/Linux/blob/master/bash_aliases -O .bash_aliases
-wget https://github.com/h3Nn35/Linux/blob/master/bashrc -O .bashrc
-wget https://github.com/h3Nn35/Linux/blob/master/vimrc -O .vimrc
+wget https://raw.githubusercontent.com/h3Nn35/Linux/master/bash_aliases -O .bash_aliases
+wget https://raw.githubusercontent.com/h3Nn35/Linux/master/bashrc -O .bashrc
+wget https://raw.githubusercontent.com/h3Nn35/Linux/master/vimrc -O .vimrc
