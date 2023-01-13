@@ -54,4 +54,4 @@
 
 
     # Wake On LAN	
-	alias wol="wol.sh"
+	alias wol="./wol.sh"
