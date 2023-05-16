@@ -119,5 +119,3 @@ LS_COLORS='rs=0:di=1;35:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd
 export LS_COLORS
 
 export PATH="$HOME/.local/bin:$PATH"
-
-eval "$(oh-my-posh init bash --config /home/christian/ohmyposh/night-owl.omp.json)"
