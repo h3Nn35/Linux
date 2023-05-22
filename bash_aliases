@@ -28,8 +28,8 @@
         alias smc='sudo mc'
 
     # Rechte bearbeiten
-        alias chmod='sudo chmod -v'
-        alias chown='sudo chown -v'
+        alias chmod='chmod -v'
+        alias chown='chown -v'
 
     # Beenden
         alias beenden='sudo shutdown -h now'
