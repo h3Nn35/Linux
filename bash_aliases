@@ -6,6 +6,9 @@
         shopt -s histappend
         export HISTTIMEFORMAT="%d %h %H:%M:%S "
 
+    # Bildschirm leeren
+    	alias c='clear'
+
     # Kopieren / Verschieben
         alias cp='cp -v'
 		alias mv='mv -v'
